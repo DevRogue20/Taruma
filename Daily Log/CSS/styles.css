@@ -10,12 +10,14 @@ h1  {
 }
 
 h3 {
+  display: inline-block;
   color: #393E41;
   text-align: center;
   font-family: 'Rubik', sans-serif;
 }
 
 /************** Classes **************/
+
 .jdlogo {
   margin-left: 1rem;
   margin-top: 1rem;
