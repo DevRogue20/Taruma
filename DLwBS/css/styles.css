@@ -27,6 +27,7 @@ label {
 .card {
   background-color: #C9D6DF;
   margin-bottom: 5rem;
+  margin-left: 1rem;
 }
 
 .carousel {
@@ -67,4 +68,9 @@ margin-right: 1rem;
 #pellet-form-btn {
   margin-top: 2rem;
   margin-left: 2rem;
+}
+
+#maint-form {
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
