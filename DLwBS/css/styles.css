@@ -54,6 +54,11 @@ textarea {
   margin-right: 1rem;
 }
 
+.col-md-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .copyright {
   color: #52616B;
   text-align: center;
@@ -90,6 +95,10 @@ textarea {
 
 #maint-form {
   margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#maintSubmit {
   margin-left: 1rem;
 }
 

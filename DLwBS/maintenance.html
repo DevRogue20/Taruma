@@ -54,29 +54,29 @@
     </div>
   </div>
 
-  <form id="maint-form" class="row g-3 w-50">
+  <form id="maint-form" class="row g-5 w-75">
     <h2>Submit new Maintenance Work Order</h2>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="requestDate" class="form-label">Date Requested</label>
       <input type="date" class="form-control" id="requestDate">
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="inputWONumber" class="form-label">Work Order Number</label>
       <input type="text" class="form-control" id="inputWONumber">
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="inputEquipmentName" class="form-label">Equipment Name</label>
       <input type="text" class="form-control" id="equipmentName" placeholder="e.g. Cooler Elevator">
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="inputWhenNeeded" class="form-label">When Needed</label>
       <input type="text" class="form-control" id="inputWhenNeeded" placeholder="e.g. date or ASAP">
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="requestedBy" class="form-label">Requested By</label>
       <input type="text" class="form-control" id="requestedBy" placeholder="Operator or Supervisor Name">
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="assignedTo" class="form-label">Assigned Maintenance Tech</label>
       <input type="text" class="form-control" id="assignedTo" placeholder="Maintenance Tech Name">
     </div>
@@ -88,20 +88,20 @@
       <label for="workCompleted" class="form-label-ta">Work Completed</label>
       <textarea class="form-control" rows="8" cols="80" id="workCompleted"></textarea>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="completeDate" class="form-label">Date Completed</label>
       <input type="date" class="form-control" id="completeDate">
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="startTime" class="form-label">Start Time</label>
       <input type="time" class="form-control" id="startTime">
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <label for="stopTime" class="form-label">Stop Time</label>
       <input type="time" class="form-control" id="stopTime">
     </div>
     <div class="col-12">
-      <button type="submit" class="btn btn-dark">Submit</button>
+      <button type="submit" class="btn btn-dark btn-lg" id="maintSubmit">Submit</button>
     </div>
   </form>
   <div class="bottom-container">
