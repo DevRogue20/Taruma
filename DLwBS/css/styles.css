@@ -1,20 +1,32 @@
 /**********Tags**********/
 body {
-  background: #444444;
+  padding-top: 60px;
+  background: #52616B;
 }
 
 
 /***********Classes*********/
+
+.card {
+  background-color: #C9D6DF
+}
+
 .jd-logo {
   margin-left: 1rem;
 }
 
 .navbar-brand {
-  margin-left: 1rem;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
-  color: #EDEDED;
+  color: #F0F5F9;
 }
-  .offcanvas-title {
-    color: #EDEDED;
-  }
+
+.offcanvas-title {
+    color: #F0F5F9;
+}
+
+
+/************ IDs ***********/
+#carousel {
+  margin: 0 auto;
+}
