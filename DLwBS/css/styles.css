@@ -5,7 +5,7 @@ body {
 }
 
 form {
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 h2 {
@@ -34,9 +34,14 @@ label {
   padding-bottom: 5rem;
 }
 
+.col-md-1 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .col-md-2 {
-margin-left: 5rem;
-margin-right: 5rem;
+margin-left: 1rem;
+margin-right: 1rem;
 }
 .copyright {
   color: #52616B;
@@ -59,3 +64,7 @@ margin-right: 5rem;
 
 
 /************ IDs ***********/
+#pellet-form-btn {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
