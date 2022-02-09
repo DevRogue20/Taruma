@@ -16,16 +16,16 @@ label {
   color: black;
 }
 
-textarea {
-  margin-left: 1rem;
-}
-
 /***********Classes*********/
 .bottom-container {
   background-color: black;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.btn {
+  margin-top: 1rem;
 }
 
 .card {
@@ -39,34 +39,9 @@ textarea {
   padding-bottom: 5rem;
 }
 
-.col-md-1 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.col-md-2 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.col-md-3 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.col-md-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .copyright {
   color: #52616B;
   text-align: center;
-}
-
-.form-label-ta {
-  margin-left: 1rem;
-  margin-bottom: 10px;
 }
 
 .jd-logo {
@@ -80,29 +55,9 @@ textarea {
 }
 
 .offcanvas-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
   color: #F0F5F9;
 }
 
 /************ IDs ***********/
-#pellet-form-1 {
-  margin-left: 1rem;
-}
-
-#pellet-form-btn {
-  margin-top: 2rem;
-  margin-left: 2rem;
-}
-
-#maint-form {
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-#maintSubmit {
-  margin-left: 1rem;
-}
-
-#pelletLogHeaderSubmit {
-  margin-top: 1rem;
-  margin-left: 1rem;
-}

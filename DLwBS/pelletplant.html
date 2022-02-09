@@ -15,7 +15,7 @@
 <body>
   <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <img src="images\jealous-devil-logo.png" alt="jd-logo" height=35rem>
+      <a href="index.html"><img src="images\jealous-devil-logo.png" alt="jd-logo" height=35rem></a>
       <a class="navbar-brand" href="#">Taruma Fruitdale Pellet Plant Shift Log</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -42,119 +42,121 @@
     </div>
   </nav>
 
-  <form id="pellet-form-1" class="row g-3 w-100">
+  <form id="pellet-form-1" class="row">
     <h2>Daily Operations Log</h2>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDate" class="form-label">Date</label>
       <input type="date" class="form-control" id="inputDate">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputName" class="form-label">Names</label>
       <input type="text" class="form-control" id="inputName">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputWeather" class="form-label">Weather</label>
       <input type="text" class="form-control" id="inputWeather">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputShift" class="form-label">Shift</label>
       <input type="text" class="form-control" id="inputShift">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputRawMoisture" class="form-label">Starting Raw MC</label>
       <input type="text" class="form-control" id="inputRawMoisture">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDryerSP" class="form-label">Starting Dryer SP</label>
       <input type="text" class="form-control" id="inputDryerSP">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputBlend" class="form-label">Material Blend</label>
       <input type="text" class="form-control" id="inputBlend">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDryMC" class="form-label">Starting Dry MC</label>
       <input type="text" class="form-control" id="inputDryMC">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputRollsGreased" class="form-label">Rolls Greased?</label>
       <input type="text" class="form-control" id="inputRollsGreased">
     </div>
-    <div class="col-md-2">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputRawBD" class="form-label">Raw Bulk Density</label>
       <input type="text" class="form-control" id="inputRawBD">
     </div>
-    <div class="col-md-12">
+    <div class="col-12">
       <button type="submit" class="btn btn-dark" id="pelletLogHeaderSubmit">Submit</button>
     </div>
   </form>
-  <form id="pellet-form-2" class="row g-1 w-100">
-    <div class="col-md-1">
+  <form id="pellet-form-2" class="row">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputTime" class="form-label">Time</label>
       <input type="time" class="formControl" id="inputTime">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputMill1FR" class="form-label">Mill 1 Feed Rate</label>
       <input type="text" class="form-control" id="inputMill1FR">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputM1Water" class="form-label">Water Added / Hr</label>
       <input type="text" class="form-control" id="inputM1Water">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputMill2FR" class="form-label">Mill 2 Feed Rate</label>
       <input type="text" class="form-control" id="inputMill2FR">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputM2Water" class="form-label">Water Added / Hr</label>
       <input type="text" class="form-control" id="inputM2Water">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputM1Load" class="form-label">Mill 1 Motor Load</label>
       <input type="text" class="form-control" id="inputM1Load">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputM2Load" class="form-label">Mill 2 Motor Load</label>
       <input type="text" class="form-control" id="inputM2Load">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDryMC2" class="form-label">Dry Moisture</label>
       <input type="text" class="form-control" id="inputDryMC2">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputPelletMC" class="form-label">Pellet Moisture</label>
       <input type="text" class="form-control" id="inputPelletMC">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputBurnerTemp" class="form-label">Burner Temp</label>
       <input type="text" class="form-control" id="inputBurnerTemp">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDryerTemp" class="form-label">Dryer Temp</label>
       <input type="text" class="form-control" id="inputDryerTemp">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputProductionTPH" class="form-label">Production TPH</label>
       <input type="text" class="form-control" id="inputProductionTPH">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDryerFR" class="form-label">Dryer Feed Rate</label>
       <input type="text" class="form-control" id="inputDryerFR">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputExhaustFan" class="form-label">Exhaust Fan</label>
       <input type="text" class="form-control" id="inputExhaustFan">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputPelletDurability" class="form-label">Durability</label>
       <input type="text" class="form-control" id="inputPelletDurability">
     </div>
-    <div class="col-md-1">
+    <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputOperator" class="form-label">Operator</label>
       <input type="text" class="form-control" id="inputOperator">
     </div>
-    <div class="col-md-12">
-      <button type="submit" class="btn btn-dark" id="pellet-form-btn">Submit</button>
+    <div class="row">
+      <div class="col-12">
+        <button type="submit" class="btn btn-dark" id="pellet-form-btn">Submit</button>
+      </div>
     </div>
   </form>
   <div class="bottom-container">
