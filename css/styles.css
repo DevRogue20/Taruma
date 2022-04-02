@@ -41,10 +41,18 @@ label {
 .copyright {
   color: #52616B;
   text-align: center;
+  display: block;
 }
 
 .jd-logo {
   margin-left: 1rem;
+}
+
+.log-container {
+  background-color: #F0F5F9;
+  margin-top: 1rem;
+  text-align: center;
+  display: block;
 }
 
 .navbar-brand {

@@ -42,7 +42,7 @@
     </div>
   </nav>
 
-  <form id="pellet-form-1" class="row">
+  <form id="pelletFormOne" class="row log-header">
     <h2>Daily Operations Log</h2>
     <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDate" class="form-label">Date</label>
@@ -61,8 +61,8 @@
       <input type="text" class="form-control" id="inputShift">
     </div>
     <div class="col-lg-2 col-md-3 col-sm-6">
-      <label for="inputRawMoisture" class="form-label">Starting Raw MC</label>
-      <input type="text" class="form-control" id="inputRawMoisture">
+      <label for="inputRawMC" class="form-label">Starting Raw MC</label>
+      <input type="text" class="form-control" id="inputRawMC">
     </div>
     <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputDryerSP" class="form-label">Starting Dryer SP</label>
@@ -85,10 +85,10 @@
       <input type="text" class="form-control" id="inputRawBD">
     </div>
     <div class="col-12">
-      <button type="submit" class="btn btn-dark" id="pelletLogHeaderSubmit">Submit</button>
+      <button type="button" class="btn btn-dark header-submit" id="pelletLogHeaderSubmit">Submit</button>
     </div>
   </form>
-  <form id="pellet-form-2" class="row">
+  <form id="pelletFormTwo" class="row log-body">
     <div class="col-lg-2 col-md-3 col-sm-6">
       <label for="inputTime" class="form-label">Time</label>
       <input type="time" class="formControl" id="inputTime">
@@ -155,15 +155,19 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <button type="submit" class="btn btn-dark" id="pellet-form-btn">Submit</button>
-      </div>
+        <button type="button" class="btn btn-dark" id="pelletLogFormSubmit">Submit</button>
     </div>
   </form>
+  <div class="log-container">
+    <p id="logDisplayContainer"></p>
+  </div>
   <div class="bottom-container">
     <div class="copyright">
       <p>&copy; 2022 Terry S. Dunlap @ Triple Shot Development, LLC</p>
     </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="pelletplant.js" charset="utf-8"></script>
 </body>
 
 </html>
